@@ -13,3 +13,6 @@ git commit -m "created readme.txt"
 git log
 git log --pretty=oneline
 git reset --hard HEAD^
+
+--查看文件命令
+cat readme.txt
