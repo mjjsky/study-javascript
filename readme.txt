@@ -10,3 +10,6 @@ git init
 git add readme.txt 
 git commit -m "created readme.txt"
 
+git log
+git log --pretty=oneline
+git reset --hard HEAD^
