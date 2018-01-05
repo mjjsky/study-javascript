@@ -3,8 +3,8 @@ git config --global user.name "mjjsky"
 git config --global user.email "mjjsky@163.com"
 
 --创建项目库
-mkdir study-javascript
-pwd /d/code/study-javascript
+mkdir project-name
+pwd /d/code/project-name
 git init
 
 git add readme.txt 
@@ -30,8 +30,18 @@ ssh-keygen -t rsa -C "mjjsky@163.com"
 --在主目录下生成rsa.pub 拷贝到github->ssh->ssh keys
 
 --将本地文件添加到远程文件
-git remote add study-javascript https://github.com/mjjsky/study-javascript.git
-git push -u study-javascript master
+git remote add project-name https://github.com/mjjsky/project-name.git
+git push -u project-name master
+
+--克隆远程库
+git clone https://github.com/mjjsky/project-name.git
+--新建分支并切换
+## git checkout -b dev
+--等同于
+$ git branch dev
+$ git checkout dev
+
+
 
 
 
